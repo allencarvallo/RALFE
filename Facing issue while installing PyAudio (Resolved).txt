@@ -3,7 +3,9 @@ pip will fetch and install PyAudio wheels for official distributions of Python 2
 But if you are using python 3.7 and  above pip won't directly install.
 So download and install wheel from **https://www.lfd.uci.edu/~gohlke/pythonlibs/**
 Wheels for 32 and 64-bit python 3.7, python 3.8, etc are available
-Notice while selecting file cp38 means CPython 3.8
+For choosing right file check your interpreter mine is Python 3.8.2 32-bit
+Notice while selecting file cp38 means CPython 3.8 and "win32" for 32 bit & "amd_win64" for 64-bit
+So I downloaded " PyAudio-0.2.11-cp38-cp38-win32.whl " 
 After downloading .whl file , go and save it in your root folder.
 Then to  install directly from a wheel archive(.whl file)
-pip install SomePackage-1.0-py2.py3-none-any.whl
+pip install SomePackage-1.0-py2.py3-none-any.whl => pip install PyAudio-0.2.11-cp38-cp38-win32.whl
