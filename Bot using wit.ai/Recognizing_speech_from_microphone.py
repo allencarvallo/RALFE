@@ -13,7 +13,7 @@ with sr.Microphone() as source :
     print('Say Something')
     audio = r.listen(source)
     try :
-        voice_data = r.recognize_wit(audio,access_token)
+        voice_data = r.recognize_google(audio)
         print(voice_data)
     except sr.UnknownValueError :
         print('Sorry, I did not get that')
